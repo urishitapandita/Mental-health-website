@@ -1,50 +1,48 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
 img {
-  display: block;
+	display: block;
 }
 
-
 body {
-  height: 1000px;
+	height: 1000px;
 }
 
 p {
-  text-align: justify;
+	text-align: justify;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /************************  Navbar Section Starts  **************************/
 .container {
-  background-color: #4fdb7e;
-  width: 100%;
-  padding: 0 8%;
-  box-sizing: border-box;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgb(63, 110, 63);
+	background-color: #4fdb7e;
+	width: 100%;
+	padding: 0 6%;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgb(124, 192, 124);
 }
 
 .navbar {
-  display: flex;
+	display: flex;
 }
 
-
 .navbar a {
-  padding: 2%;
+	padding: 1% 2%;
 }
 
 .navbar ul {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
 }
 
 .navbar ul li {
@@ -53,23 +51,22 @@ a {
 }
 
 .navbar ul li a {
-    border-radius: 20px;
+	border-radius: 20px;
 	font-size: 16px;
 	color: white;
 }
 .logo {
-  width: 70px;
-  cursor: pointer;
+	width: 55px;
+	cursor: pointer;
 }
 
 .menu-icon {
-  width: 50px;
-  cursor: pointer;
+	width: 40px;
+	cursor: pointer;
 }
 
-
 nav ul li a:hover {
-  color: green;
+	color: green;
 }
 
 /************************  Navbar Section Ends  **************************/
@@ -77,201 +74,206 @@ nav ul li a:hover {
 /************************  Day Planner Section Starts  **************************/
 
 .container1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
 }
 
 .width100 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .planner h2 {
-  margin: 0 0 50px 0;
-  padding-top: 17px;
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 28px;
-  text-transform: capitalize;
+	margin: 0 0 50px 0;
+	padding-top: 17px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 28px;
+	text-transform: capitalize;
 }
 
 #userinput {
-  margin-right: 20px;
-  height: 34px;
-  border-radius: 10px;
-  transition: width 0.5s;
-  padding-left: 8px;
-  width: 30%;
+	margin-right: 20px;
+	height: 34px;
+	border-radius: 10px;
+	transition: width 0.5s;
+	padding-left: 8px;
+	width: 30%;
 }
 
 #enterButton {
-  background-color: green;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 1px;
-  width: 100px;
-  border-radius: 15px;
+	background-color: green;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+	width: 100px;
+	border-radius: 15px;
 }
 
 .todolist {
-  position: relative;
-  font-family: sans-serif;
-  line-height: 30px;
-  width: 60%;
-  height: auto;
-  min-height: 80px;
-  margin: 0 auto;
-  border: 1.5px solid green;
-  box-shadow: 0.75px 0.75px 2px green;
-  border-radius: 15px;
+	position: relative;
+	font-family: sans-serif;
+	line-height: 30px;
+	width: 60%;
+	height: auto;
+	min-height: 80px;
+	margin: 0 auto;
+	border: 1.5px solid green;
+	box-shadow: 0.75px 0.75px 2px green;
+	border-radius: 15px;
 }
 
-/* li:hover {
-	text-decoration: line-through;
-} */
-
 .done {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .todobutton {
-  position: absolute;
-  right: 10px;
-  background-color: green;
-  padding: 0.5%;
-  border-radius: 10px;
-  color: white;
-  margin-top: 5px;
+	position: absolute;
+	right: 10px;
+	background-color: green;
+	padding: 0.5%;
+	border-radius: 10px;
+	color: white;
+	margin-top: 5px;
 }
 
 .todobutton:focus {
-  outline: none;
+	outline: none;
 }
 
 /************************  Day Planner Section Ends  **************************/
 
 .row {
-  padding: 0 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 80px 0;
+	padding: 0 8%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0;
 }
+
 .col-1 {
-  flex-basis: 40%;
-  position: relative;
-  margin-left: 50px;
+	flex-basis: 45%;
+	position: relative;
+	margin-left: 50px;
 }
+
 .col-1 h2 {
-  font-size: 54px;
+	font-size: 30px;
+	padding: 5px 0 20px 0;
 }
+
 .col-1 h3 {
-  font-size: 30px;
-  color: #707070;
-  font-weight: 100;
-  margin: 20px 0 10px;
+	font-size: 30px;
+	color: #707070;
+	font-weight: 100;
+	margin: 20px 0 10px;
 }
+
 .col-1 p {
-  font-size: 16px;
-  color: #838383;
-  font-weight: 100;
+	font-size: 16px;
+	color: #5b5b5b;
+	padding-bottom: 20px;
 }
+
 .col-1 h4 {
-  margin: 30px 0;
-  font-size: 20px;
+	margin: 30px 0;
+	font-size: 20px;
 }
+
 .addplan {
-  width: 140px;
-  border: 0;
-  padding: 12px 10px;
-  outline: none;
-  color: #fff;
-  background: linear-gradient(to right, #5dee58, #2fd846);
-  border-radius: 6px;
-  cursor: pointer;
-  transition: width 0.5s;
+	width: 140px;
+	border: 0;
+	padding: 12px 10px;
+	outline: none;
+	color: #fff;
+	background: linear-gradient(to right, #5dee58, #2fd846);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: width 0.5s;
 }
 
 .music-hover {
-  width: 140px;
-  border: 0;
-  padding: 12px 10px;
-  outline: none;
-  color: #fff;
-  background: linear-gradient(to right, #6ee978, #26da5c);
-  border-radius: 6px;
-  cursor: pointer;
-  transition: width 0.5s;
+	width: 140px;
+	border: 0;
+	padding: 12px 10px;
+	outline: none;
+	color: #fff;
+	background: linear-gradient(to right, #6ee978, #26da5c);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: width 0.5s;
 }
 .music-hover img {
-  width: 30px;
-  display: none;
+	width: 30px;
+	display: none;
 }
 .music-hover:hover img {
-  display: block;
+	display: block;
 }
 .music-hover:hover {
-  width: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	width: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .col-1::after {
-  content: "";
-  width: 10px;
-  height: 57%;
-  background: linear-gradient(#42eb96, #07a00f);
-  position: absolute;
-  left: -40px;
-  top: 8px;
+	content: "";
+	width: 7px;
+	height: 90%;
+	background: linear-gradient(#42eb96, #07a00f);
+	position: absolute;
+	left: -40px;
+	top: 8px;
 }
+
 .col-2 {
-  align-items: center;
+	width: 360px;
 }
-.col-2 .middle {
-  width: 120%;
+
+.middle {
+	width: 100%;
 }
 
 /* Card Container Section Starts */
 
 .container2 {
-  margin-top: 30px;
-  padding: 0 7%;
-  background-color: #87f0a7;
-  display: flex;
-  justify-content: space-between;
+	margin-top: 30px;
+	padding: 0 7%;
+	background-color: #87f0a7;
+	display: flex;
+	justify-content: space-between;
 }
 
 .card-container {
-  width: 28%;
-  flex-wrap: wrap;
-  background-color: white;
-  color: black;
-  margin: 4% 0;
-  border-radius: 15px;
-  padding: 2% 2% 4% 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 28%;
+	flex-wrap: wrap;
+	background-color: white;
+	color: black;
+	margin: 4% 0;
+	border-radius: 15px;
+	padding: 2% 2% 4% 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .card-container:hover {
-  box-shadow: 0 0 10px green;
+	box-shadow: 0 0 10px green;
 }
 
 .card-image {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 }
 
 .card-image img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 }
 
 /* Card Container Section Ends */
@@ -281,24 +283,24 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 10px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 4px; /* Add a top margin */
-  margin-bottom: 14px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	width: 100%; /* Full width */
+	padding: 10px; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 4px; /* Add a top margin */
+	margin-bottom: 14px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #04aa6d;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	background-color: #04aa6d;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 .container-contact {
@@ -307,7 +309,9 @@ input[type="submit"] {
 	color: rgb(223, 223, 223);
 }
 
-.container-contact input, textarea, select {
+.container-contact input,
+textarea,
+select {
 	background-color: rgb(54, 54, 54);
 	color: rgb(223, 223, 223);
 }
@@ -323,7 +327,7 @@ input[type="submit"] {
 }
 
 .btn-primary:hover {
-	background-color: #02970a;	
+	background-color: #02970a;
 }
 
 .container-contact1 {
@@ -355,8 +359,8 @@ input[type="submit"] {
 }
 
 .faviconcenter {
-  padding: 2% 35%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+	padding: 2% 35%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
