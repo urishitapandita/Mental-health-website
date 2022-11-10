@@ -341,7 +341,7 @@ select {
 
 .white-container {
 	background-color: white;
-	padding: 5% 25%;
+	padding: 5% 18%;
 }
 
 .quote {
@@ -363,4 +363,19 @@ select {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.quote-button {
+	padding: 5px 10px;
+	background-color: rgb(65, 132, 255);
+	color: white;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 50%;
+	max-width: 400px;
+}
+
+.quote-button:hover {
+	background-color: rgb(78, 81, 241);
+	box-shadow: 0 0 10px grey;
 }
